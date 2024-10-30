@@ -1,0 +1,39 @@
+.education-section {
+    padding: 20px;
+  }
+  
+  .timeline {
+    position: relative;
+  }
+  
+  .timeline-item {
+    padding: 20px 0;
+  }
+  
+  .timeline-item::after {
+    content: '';
+    position: absolute;
+    left: 0px;
+    top: 0;
+    width: 3px;
+    height: 100%;
+    background-color: yellow;
+  }
+  
+  .timeline-item:last-child::after {
+    height: 50%;
+  }
+
+  .timeline-item h3 {
+    color: yellow;
+  }
+  
+  .timeline-item p {
+    margin-top: 10px;
+  }
+  
+  .timeline-box {
+    border: 2px solid yellow;
+    padding: 20px;
+    margin-top: 10px;
+  }
